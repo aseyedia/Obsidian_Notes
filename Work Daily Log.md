@@ -6,16 +6,16 @@ tags:
   - Log_WorkLog
   - PCORnet_Projects_DSpace
 title: Work Daily Log
-date created: Monday, July 8th 2024, 9:16:08 am
-date modified: Monday, July 8th 2024, 5:17:56 pm
+date created: Tuesday, July 9th 2024, 9:16:43 am
+date modified: Wednesday, July 10th 2024, 9:42:19 am
 ---
 
-## 2024-07-08-Monday Work Log
+## 2024-07-09-Tuesday Work Log
 
-> [!quote] The world has the habit of making room for the man whose actions show that he knows where he is going.
-> — Napoleon Hill
+> [!quote] The ultimate promise of technology is to make us master of a world that we command by the push of a button.
+> — Volker Grassmuck
 
-<< [[2024-07-07-Sunday|Yesterday]] | [[Work Daily Log|Tomorrow]] >>
+<< [[Work Daily Log|Yesterday]] | [[Work Daily Log|Tomorrow]] >>
 
 _Remember to set any web blocker app (e.g. RescueTime) to Focus Mode to avoid distractions._
 
@@ -45,35 +45,41 @@ _Use cmd+shift+L to switch Periodic Notes Calendar Sets._
 > ```tasks
 > not done
 > (path includes CHOP PCORnet Team/) AND (path does not include CHOP PCORnet Team/Quick Access/General Kanban.md) AND (path does not include CHOP PCORnet Team/Daily Notes/)
-> # limit 5
+> limit 5
 > # explain
 > ```
 
 ---
 
-## [[Work Daily Log|Last Friday's]] EOD Review
+## [[Work Daily Log|Yesterday's]] EOD Review
 
-![[Work Daily Log#End of Day Review|2024-07-05-Friday > End of Day Review]]
+![[Work Daily Log#End of Day Review|2024-07-08-Monday > End of Day Review]]
 
 ## Log
 
-### 2024-07-08 9:23:42am
+### 2024-07-09 9:41:27am
 
-Wow. [Looks like I did a lot last week](https://dspace-org.slack.com/archives/C3V628QNN/p1720215840715069?thread_ts=1720207152.337519&cid=C3V628QNN). Damn.
+Alright I love blowing some time at the beginning of the day working on some personal stuff. Today I made a profile GitHub README.md. I wanna finish it out. I also want to update my Obsidian template repo.
 
-![[./docs/assets/img/Pasted image 20240708092436.png|Pasted image 20240708092436.png]]
+- [ ] Flesh out GitHub Profile README.md ➕ 2024-07-09
+- [ ] Update Obsidian Template Repo ➕ 2024-07-09
+- [ ] Make an Obsidian workflow for both personal and work-related note-taking. ➕ 2024-07-09
 
-Okay well. Guess I gotta go on with the dang thing. The darn stuff. I feel like a zombie right now. Normally I'm fine with just 5 hours of sleep but right now I am still waking up.
+Okay. So basically where I left things off is that I was integrating changes. Let's integrate.
 
 ## End of Day Review
 
-I fixed the backend. It was simpler than expected.
+This is a nightmare.
 
-Now I'm trying an overly-complicated way of merging the frontend upgrades with the customizations. Basically tomorrow I need to do another dry run, add all of the changes made in the new version, pop the stash and overwrite the files. This was too complicated though. Maybe it's going to make upgrading PEDSpace easier.
+```sh
+ng generate @angular/core:standalone --path src/themes/PCORnet-custom
+```
 
-Here's the [CGPT Thread](https://chatgpt.com/c/e59b02ae-b27a-46ca-b2f0-54e480762faf).
+The above command is supposed to convert my theme into "standalone architecture." Instead, it takes me to an emacs screen where I have no idea what I'm doing.
 
-- [x] Complete the EOD Review ➕ 2024-07-08 (@2024-07-08 04:45pm) ✅ 2024-07-08
+Otherwise, the upgrade is more-or-less complete for PCORnet, I just need to figure out how to port my frontend theme in. It looks like because I'm not that far along, I could just do it manually, but that's a PITA and it doesn't help me/us when we have to inevitably upgrade in the future.
+
+- [x] Complete the EOD Review ➕ 2024-07-09 (@2024-07-09 04:45pm) ✅ 2024-07-09
 
 ---
 

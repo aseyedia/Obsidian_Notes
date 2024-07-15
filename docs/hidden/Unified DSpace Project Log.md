@@ -805,7 +805,7 @@ I just finished the simple item view. I spent a while on my phone to I guess men
 
 There are a few things I should probably touch on.
 
-![[Metadata Item Mapping#Element Table|Metadata Item Mapping > Element Table]]
+
 
 Do you see this table? There are a few issues:
 

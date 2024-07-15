@@ -87,12 +87,18 @@ Otherwise, the upgrade is more-or-less complete for PCORnet, I just need to figu
 
 ### Notes Labeled \#TODO
 
+- [[Work TODO|Work TODO]]
 
 
 ### Notes Created Today
 
+| File                                                                                     | Creation Time           |
+| ---------------------------------------------------------------------------------------- | ----------------------- |
+| [[2024-07-09-Tuesday\|2024-07-09-Tuesday]] | 9:16 AM - July 09, 2024 |
 
 
 ### Notes Last Touched Today
 
+| File | Modification Time |
+| ---- | ----------------- |
 

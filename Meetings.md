@@ -47,3 +47,15 @@ actions:
 
 ### 10 Most Recent Meeting Notes
 
+| File                                                                                                                                                       | Created       |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
+| [[2024-07-15 PCORnet Global QF Meeting\|2024-07-15 PCORnet Global QF Meeting]]                                               | July 15, 2024 |
+| [[2024-07-08 PCORnet QF\|2024-07-08 PCORnet QF]]                                                                             | July 08, 2024 |
+| [[2024-07-08 IT Meeting\|2024-07-08 IT Meeting]]                                                                             | July 08, 2024 |
+| [[2024-07-01 PCORnet DSpace Meeting\|2024-07-01 PCORnet DSpace Meeting]]                                                     | July 01, 2024 |
+| [[2024-07-01 Internal PCORnet QF- planning and status updates\|2024-07-01 Internal PCORnet QF- planning and status updates]] | July 01, 2024 |
+| [[2024-06-24 Pipeline Introductory Meeting with Paul Deppen\|2024-06-24 Pipeline Introductory Meeting with Paul Deppen]]     | June 24, 2024 |
+| [[2024-06-24 Global PCORnet Meeting\|2024-06-24 Global PCORnet Meeting]]                                                     | June 24, 2024 |
+| [[2024-06-18 Variable Dictionary\|2024-06-18 Variable Dictionary]]                                                           | June 18, 2024 |
+| [[2024-06-17 Metadata Meeting\|2024-06-17 Metadata Meeting]]                                                                 | June 17, 2024 |
+| [[2024-06-17 Global PCORnet Meeting\|2024-06-17 Global PCORnet Meeting]]                                                     | June 17, 2024 |

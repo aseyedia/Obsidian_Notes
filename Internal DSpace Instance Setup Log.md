@@ -701,7 +701,7 @@ Maybe I need to do something like that.
 
 I'm still going to be working on this in my 80s.
 
-![[Internal DSpace Instance Setup Log#2024-05-06 3 18 39pm|Internal DSpace Instance Setup Log > 2024-05-06 3 18 39pm]]
+
 
 I'm going to rebuild DSpace but maybe with these configs.
 

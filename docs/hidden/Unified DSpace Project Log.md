@@ -55,10 +55,10 @@ This page is for both of the DSpace projects.
 
 ## Resources
 
-- [[Internal DSpace Re-skin Project|Internal DSpace Re-skin Project]]
-- [[External DSpace Re-Skin (PCORnet)|External DSpace Re-Skin (PCORnet)]]
+- [Internal DSpace Re-skin Project](../../Internal%20DSpace%20Re-skin%20Project.md)
+- [External DSpace Re-Skin (PCORnet)](../../External%20DSpace%20Re-Skin%20(PCORnet).md)
 	- [CGPT Thread](https://chatgpt.com/c/c7819040-97c8-41dd-b0fa-5b65bf4744cd)
-- ~~[[Metadata Item Mapping|Metadata Item Mapping]]~~
+- ~~[Metadata Item Mapping](../../Metadata%20Item%20Mapping.md)~~
 
 ### Upgrade Links
 
@@ -251,7 +251,7 @@ Okay it took me more than a few hours but I finally fixed it. Everything is fina
 
 Oh my gosh. I just realized a major issue. Because I was merging staight from HEAD in `origin/main`, I was getting the early development version of DSpace 9. That's why the homepage said DSpace 9. Now that I'm trying to "restore" DSpace, I am using the pre-packaged installation version, and THAT is actually DSpace 8. So I am doing the right thing anyway. This goose chase helped me realize that I was trying to install and deploy an extremely early version of DSpace 9.
 
-![[../assets/img/Pasted image 20240710130115.png|Pasted image 20240710130115.png]]
+![Pasted image 20240710130115.png](../assets/img/Pasted%20image%2020240710130115.png)
 
 ### 2024-07-10 12:00:24pm
 
@@ -277,7 +277,7 @@ They're just saying this all willy-nilly like it's a walk in the park.
 
 So here's where I left things off yesterday:
 
-![[Work Daily Log#End of Day Review|2024-07-09-Tuesday > End of Day Review]]
+![2024-07-09-Tuesday > End of Day Review](../../Work%20Daily%20Log.md#End%20of%20Day%20Review)
 
 [And this is because my dumbass just naively installed `ng-common` when Ubuntu asked me if that's what I meant, not `angular/cli`](https://stackoverflow.com/questions/45145535/uninstall-the-mg-editor-and-use-angular-cli-properly):
 
@@ -737,7 +737,7 @@ Alright. Well. Most of the day is gone. That's okay, I guess. Not sure what happ
 
 Also I just found out that [they're intending on making PEDSpace public](https://pedsnet.slack.com/archives/C055UAV1W31/p1720025408473779):
 
-![[../assets/img/Pasted image 20240703140418.png|Pasted image 20240703140418.png]]
+![Pasted image 20240703140418.png](../assets/img/Pasted%20image%2020240703140418.png)
 
 Which, lol, it would have been nice if they told me beforehand. God.
 
@@ -789,13 +789,13 @@ made the link go straight to browsing items which share that metadata field valu
 
 One thing I'm not thrilled about is that the relation links don't take me straight to the file, it takes me to a browse page for the file:
 
-![[../assets/img/Pasted image 20240703114037.png|Pasted image 20240703114037.png]]
+![Pasted image 20240703114037.png](../assets/img/Pasted%20image%2020240703114037.png)
 
 But honestly I just have to make do with what I got. 👍
 
 ### 2024-07-03 11:08:54am
 
-![[Work Daily Log#2024-07-03 10 42 23am|2024-07-03-Wednesday > 2024-07-03 10 42 23am]]
+![2024-07-03-Wednesday > 2024-07-03 10 42 23am](../../Work%20Daily%20Log.md#2024-07-03%2010%2042%2023am)
 
 Look at the part where someone responded to my post in the Slack. I'm going to try it now.
 
@@ -805,7 +805,7 @@ I just finished the simple item view. I spent a while on my phone to I guess men
 
 There are a few things I should probably touch on.
 
-
+![Metadata Item Mapping > Element Table](../../Metadata%20Item%20Mapping.md#Element%20Table)
 
 Do you see this table? There are a few issues:
 
@@ -817,7 +817,7 @@ This is driving me up the wall. I'm trying to make it so that some of these "sea
 
 This renders a link on the simple (and maybe full?) item view that allows users to "click" and then browse the index for that particular thing. I think the frustration I mentioned in the previous point actually belongs in here, because really what `webui.browse.index` does is it sets up the "search by" dropdown in the navbar:
 
-![[../assets/img/Pasted image 20240702165409.png|400]]
+![400](../assets/img/Pasted%20image%2020240702165409.png)
 
 And then that "search by" gets called when you click on the link? Anyway, it's not even working for. `dc.type`, which is the most straightforward metadata field to browse; I want to view all items that share the current item's particular type, I don't want to search all types that begin with the same string as the current item's type. Why would I ever even want that.?
 
@@ -843,7 +843,7 @@ For some reason, the version info automatically generates in PEDSpace in both th
 
 [Hanieh was not satisfied with the state of the website and how queries return on the search page:](https://pedsnet.slack.com/archives/C055UAV1W31/p1719948167181789)
 
-![[../assets/img/Pasted image 20240702170338.png|Pasted image 20240702170338.png]]
+![Pasted image 20240702170338.png](../assets/img/Pasted%20image%2020240702170338.png)
 
 So I guess I have to figure out how to *automatically* sort search query results by when the data was created, not when the form was submitted.
 
@@ -867,7 +867,7 @@ Too much to cover. Jon said all of my work was "outstanding." Later in the meeti
 
 ### 2024-07-01 1:34:00pm
 
-We are [[2024-07-01 PCORnet DSpace Meeting|having a meeting]].
+We are [having a meeting](../../2024-07-01%20PCORnet%20DSpace%20Meeting.md).
 
 ### 2024-07-01 12:13:49pm
 
@@ -1007,9 +1007,9 @@ The fourth parameter for `listableObjectComponent` is THEME. Because I sourced t
 
 It would be great if the documentation mentioned this at all! That would be amazing! That would be so good! It would be *ecstasy-inducing* if the documentation mentioned this. Instead, I had to go to the [dspace-tech](https://groups.google.com/g/dspace-tech/c/lAeqmu_QWKw/m/CmYUmOoDDQAJ) Google Groups page to find a PDF from a WEBINAR from TWO YEARS AGO. In a Google Drive. So I had to load the URL on my phone, and then download it as a PDF and AirDrop it to my MacBook.
 
-![[../assets/img/Pasted image 20240624160325.png|Pasted image 20240624160325.png]]
+![Pasted image 20240624160325.png](../assets/img/Pasted%20image%2020240624160325.png)
 
-![[../assets/img/Pasted image 20240624160638.png|Pasted image 20240624160638.png]]
+![Pasted image 20240624160638.png](../assets/img/Pasted%20image%2020240624160638.png)
 
 ### 2024-06-24 3:21:45pm
 
@@ -1038,7 +1038,7 @@ After hours and hours and hours of agonizing troubleshooting, I finally figured 
 
 The simple item view is being loaded from `src/app/item-page/simple/item-types/untyped-item/untyped-item.component.html` instead of `src/themes/PCORnet-custom/app/item-page/simple/item-types/untyped-item/untyped-item.component.html`.
 
-![[../assets/img/Pasted image 20240624142003.png|Pasted image 20240624142003.png]]
+![Pasted image 20240624142003.png](../assets/img/Pasted%20image%2020240624142003.png)
 
 Now, why is this happening? I don't know. Is it important that I figure out how to make it load from my theme instead of just directly altering the default simple item view? Maybe. But when it comes down to it, I'm not going to sink all that much time into it.
 
